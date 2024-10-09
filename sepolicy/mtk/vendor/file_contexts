@@ -33,6 +33,9 @@
 /dev/nq-nci                                                      u:object_r:nfc_device:s0
 /dev/p73                                                         u:object_r:nfc_device:s0
 
+# OverlayFS
+/odm/overlay/prj_22823(/.*)?    u:object_r:vendor_configs_file:s0
+
 # Partitions
 /dev/block/platform/112b0000\.ufshci/by-name/oplus_custom    u:object_r:oplus_block_device:s0
 
