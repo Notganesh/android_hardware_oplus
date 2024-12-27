@@ -1,6 +1,3 @@
-# IR
-type oplus_consumerir_device, dev_type;
-
 # Reserve
 type vendor_reserve_partition, dev_type;
 

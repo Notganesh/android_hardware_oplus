@@ -1,6 +1,3 @@
-# Alert Slider
-/vendor/bin/tri-state-key-calibrate    u:object_r:tri-state-key-calibrate_exec:s0
-
 # Camera
 /mnt/vendor/persist/camera(/.*)?          u:object_r:persist_camera_file:s0
 /(odm|vendor/odm)/bin/crossbuild(/.*)?    u:object_r:vendor_bin_crossbuild_file:s0
@@ -22,10 +19,6 @@
 # Firmwares
 /vendor/firmware(/.*)?    u:object_r:vendor_configs_file:s0
 /odm/firmware(/.*)?       u:object_r:vendor_configs_file:s0
-
-# IR
-/(odm|vendor/odm)/bin/hw/android\.hardware\.ir-service    u:object_r:hal_ir_default_exec:s0
-/dev/oplus_consumer_ir                                    u:object_r:oplus_consumerir_device:s0
 
 # NFC
 /vendor/bin/hw/android\.hardware\.nfc-service\.nxp               u:object_r:hal_nfc_default_exec:s0
